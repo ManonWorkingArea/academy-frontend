@@ -1,0 +1,19 @@
+/*== 
+ * Vue.js & TailwindCSS Portfolio Main CSS File
+ * Powered by: @chhinghor
+*/
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* Custom Styles Below */
+
+/* Active class for navigation menu */
+.router-link-active,
+.router-link-exact-active {
+	@apply text-indigo-800;
+	@apply text-indigo-600 dark:text-indigo-300;
+}
